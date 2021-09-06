@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>APP</title>
+</head>
+<body style="padding: 20px">
+<div class="container">
+    <h1>浏览器中打开指定的应用程序</h1>
+
+    <h2>原理：</h2>
+    <ol>
+        <li>在系统注册表中添加一个任意开头的协议名称，如 <i>twopener</i></li>
+        <li>给这个协议指定一个响应程序</li>
+        <li>导入到注册表中之后，浏览器中通过请求指定开头的协议路径，如 <i>twopener://</i> 就会打开对应的程序</li>
+    </ol>
+
+    <p>点此下 <a href="./twoponer.reg">载例子注册表文件</a>，双击导入到系统中后，再点击下面的链接就能直接打开 <b>Windows</b> 文件管理器了</p>
+
+
+
+    <h2>例子</h2>
+    <a href="twopener://">打开</a>
+</div>
+
+
+
+
+</body>
+</html>

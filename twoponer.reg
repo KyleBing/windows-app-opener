@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\twopener]
+@="\"URL:TW-Password-Opener Protocol\""
+"URL Protocol"="\"\""
+
+[HKEY_CLASSES_ROOT\twopener\shell]
+@=""
+
+[HKEY_CLASSES_ROOT\twopener\shell\open]
+
+[HKEY_CLASSES_ROOT\twopener\shell\open\command]
+@="C:\\Windows\\explorer.exe"
